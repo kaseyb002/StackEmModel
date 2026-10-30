@@ -20,14 +20,14 @@ let package = Package(
             name: "StackEmModel",
             swiftSettings: [
                 .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
+            ]
         ),
         .testTarget(
             name: "StackEmModelTests",
             dependencies: ["StackEmModel"],
             swiftSettings: [
                 .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
+            ]
         ),
     ]
 )
